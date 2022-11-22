@@ -3,10 +3,10 @@ const Note = require('../schemas/Note')
 module.exports = {
   /**
    * 
-   * @param {string} id - user id
+   * @param {string} userID - user id
    */
-  async getNotes(id) {
-    const data = await Note.find({userID: id}).lean().exec()
+  async getNotes(userID) {
+    const data = await Note.find({userID}).lean().exec()
 
     // console.log(`[ DB ] Request: ${JSON.stringify(data, null, 2)}`)
 

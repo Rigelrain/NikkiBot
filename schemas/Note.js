@@ -3,7 +3,7 @@ const Schema = mongoose.Schema
 
 const noteSchema = new Schema({
   userID: String, // ID of the user who made the request
-  type: String, // request type (allowed types can be set by server)
+  note: String, // The note contents
   tags: [String],
   expiration: Date,
 })
