@@ -1,0 +1,31 @@
+{
+  "name": "nikkibot",
+  "version": "1.0.0",
+  "description": "Bot that keeps track of notes and irritatingly reminds you of them.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rigelrain/NikkiBot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Sade Sirén",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rigelrain/NikkiBot/issues"
+  },
+  "homepage": "https://github.com/Rigelrain/NikkiBot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}

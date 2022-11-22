@@ -1,0 +1,9 @@
+const params = {
+  user: '',
+  pass: '',
+}
+
+module.exports = {
+  dbname: '',
+  path: `mongodb+srv://${params.user}:${params.pass}@<---USERNAME--->-<---DB--->.mongodb.net/test?retryWrites=true&w=majority`,
+}

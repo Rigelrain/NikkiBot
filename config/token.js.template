@@ -1,0 +1,5 @@
+module.exports = {
+  token: '', // bot token
+  clientId: '', // bot client id
+  guildId: '', // test server id
+}
